@@ -1,0 +1,53 @@
+/*  CHANNEL  */
+
+
+.channel,
+.channel_play,
+.channel_title,
+.channel_description {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.channel {
+  
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: #2a2a2a;
+  text-align: center;
+
+}
+
+.channel_video {
+
+  width: 640px;
+  height: 360px;
+  background-image: url("../img/video-bg.jpg");
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+
+}
+
+.channel_title {
+  
+  font-family: 'Butler', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  text-transform: capitalize;
+  
+}
+
+.channel_description {
+  
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  
+}
+
+/*  /CHANNEL  */

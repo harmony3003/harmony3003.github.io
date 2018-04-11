@@ -1,0 +1,157 @@
+/*  LAYOUT  */
+
+/*  Fonts */
+
+@font-face {
+    font-family: "Butler";
+    src: local("Butler"),
+    url('../fonts/Butler/Butler_Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Butler";
+    src: local("Butler"),
+    url('../fonts/Butler/Butler_Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Butler";
+    src: local("Butler"),
+    url('../fonts/Butler/Butler_Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"),
+    url('../fonts/Lato/Lato-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"),
+    url('../fonts/Lato/Lato-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: local("Lato"),
+    url('../fonts/Lato/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  LAYOUT  */
+
+html, body {
+
+    min-width: 1200px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+html {
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.container {
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.clearfix::before,
+.clearfix::after {
+
+    content: "";
+    display: table;
+
+}
+
+.clearfix::after {
+
+    clear: both;
+
+}
+
+.page_header {
+
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+
+.visually-hidden {
+
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: none;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+}
+
+/*  /LAYOUT  */
+
+/*  BUTTON  */
+
+.btn {
+
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 50px;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    cursor: pointer;
+
+}
+
+.btn-dark_orange {
+
+    width: 180px;
+    background-color: #e8be7b;
+    margin-left: 15px;
+
+}
+
+.btn-transparent {
+
+    width: 180px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-right: 15px;
+
+}
+
+/*  /BUTTON  */

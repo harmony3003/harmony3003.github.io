@@ -1,0 +1,72 @@
+/*  REALIZATION  */
+
+
+.realization,
+.realization_title,
+.realization_date,
+.realization_content {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.realization {
+  
+  padding-top: 600px;
+  padding-bottom: 62px;
+  
+  background-image: url("../img/realization-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+
+  color: #3a3a3a;
+  
+}
+
+.realization_content {
+
+  display: flex;
+  width: 1000px;
+  background-color: white;
+  padding: 25px 84px;
+  margin: 0 auto;
+
+}
+
+.realization_date {
+
+  width: 116px;
+  padding-top: 15px;
+  padding-right: 22px;
+  font-family: 'Butler', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #3a3a3a;
+  text-transform: capitalize;
+  border-right: 1px solid #3a3a3a;
+  text-align: center;
+  
+}
+
+.realization_date img {
+
+  padding-top: 20px;
+}
+
+.realization_description {
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 23px;
+
+}
+
+
+
+/*  /REALIZATION  */
