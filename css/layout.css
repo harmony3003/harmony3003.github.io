@@ -6,7 +6,7 @@
     font-family: "Butler";
     src: local("Butler"),
     url('../fonts/Butler/Butler_Medium.otf');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -14,7 +14,7 @@
     font-family: "Butler";
     src: local("Butler"),
     url('../fonts/Butler/Butler_Bold.otf');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -22,7 +22,7 @@
     font-family: "Butler";
     src: local("Butler"),
     url('../fonts/Butler/Butler_Light.otf');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -30,7 +30,7 @@
     font-family: "Lato";
     src: local("Lato"),
     url('../fonts/Lato/Lato-Medium.ttf');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -38,7 +38,7 @@
     font-family: "Lato";
     src: local("Lato"),
     url('../fonts/Lato/Lato-Bold.ttf');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -137,20 +137,19 @@ html {
 
 }
 
-.btn-dark_orange {
+.btn-transparent:hover  {
 
     width: 180px;
     background-color: #e8be7b;
-    margin-left: 15px;
 
 }
-
+/*.btn-dark_orange*/
 .btn-transparent {
 
     width: 180px;
     border: 1px solid #ffffff;
     text-align: center;
-    margin-right: 15px;
+    margin: 0 15px;
 
 }
 

@@ -52,7 +52,7 @@
   
 }
 
-.realization_date img {
+.realization_date .icon-heart {
 
   padding-top: 20px;
 }
@@ -67,6 +67,11 @@
 
 }
 
+.icon-heart:before {
 
+  padding-top: 10px;
+  color: #e8be7b;
+
+}
 
 /*  /REALIZATION  */
