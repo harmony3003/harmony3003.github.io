@@ -186,4 +186,21 @@
   margin: 0 auto;
 
 }
+
+.slider_slide .btn-transparent .icon-right-dir::before {
+
+  font-size: 27px;
+  margin: 0 3px 3px 0;
+  color: #ffffff;
+  vertical-align: middle;
+
+}
+
+.slider_slide .btn-transparent:hover {
+
+  border: 1px solid #e8be7b;
+
+}
+
+
 /*  OFFERS  */
