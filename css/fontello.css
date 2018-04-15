@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../fonts/font/fontello.eot?41559304');
-  src: url('../fonts/font/fontello.eot?41559304#iefix') format('embedded-opentype'),
-       url('../fonts/font/fontello.woff2?41559304') format('woff2'),
-       url('../fonts/font/fontello.woff?41559304') format('woff'),
-       url('../fonts/font/fontello.ttf?41559304') format('truetype'),
-       url('../fonts/font/fontello.svg?41559304#fontello') format('svg');
+    src: url('../fonts/font/fontello.eot?42667101');
+    src: url('../fonts/font/fontello.eot?42667101#iefix') format('embedded-opentype'),
+    url('../fonts/font/fontello.woff2?42667101') format('woff2'),
+    url('../fonts/font/fontello.woff?42667101') format('woff'),
+    url('../fonts/font/fontello.ttf?42667101') format('truetype'),
+    url('../fonts/font/fontello.svg?42667101#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../fonts/font/fontello.svg?41559304#fontello') format('svg');
+    src: url('../font/fontello.svg?23761152#fontello') format('svg');
   }
 }
 */
@@ -58,13 +58,16 @@
 .icon-heart:before { content: '\e800'; } /* '' */
 .icon-mail:before { content: '\e801'; } /* '' */
 .icon-phone:before { content: '\e802'; } /* '' */
-.icon-right-dir-1:before { content: '\e804'; } /* '' */
+.icon-right-dir:before { content: '\e803'; } /* '' */
+.icon-right-open-outline:before { content: '\e804'; } /* '' */
 .icon-location:before { content: '\e805'; } /* '' */
+.icon-left-open-outline:before { content: '\e806'; } /* '' */
+.icon-right-open-big:before { content: '\e807'; } /* '' */
+.icon-left-open-big:before { content: '\e808'; } /* '' */
 .icon-twitter-1:before { content: '\f099'; } /* '' */
 .icon-facebook-1:before { content: '\f09a'; } /* '' */
 .icon-youtube-play:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-flickr:before { content: '\f16e'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
-.icon-left:before { content: '\f177'; } /* '' */
 .icon-right:before { content: '\f178'; } /* '' */
