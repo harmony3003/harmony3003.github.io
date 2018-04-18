@@ -118,7 +118,7 @@
   position: absolute;
   right: 0;
   bottom: -160px;
-  top: -120px;
+  top: -165px;
   margin: 445px 30px 310px 1162px;
   font-size: 0;
   line-height: 0;
@@ -127,7 +127,7 @@
 
 }
 
-.slider_indicator {
+.no-js .slider_indicator {
 
 
   display: block;
@@ -253,24 +253,6 @@
 .slider_btn-next {
 
   right: 30px;
-
-}
-
-@media only screen  and (min-width: 1400px) {
-
-  .slider_btn-prev {
-
-    left: calc((100vw - 1200px) / 4);
-    margin-left: -50px;
-
-  }
-
-  .slider_btn-next {
-
-    right: calc((100vw - 1200px) / 4);
-    margin-right: -50px;
-
-  }
 
 }
 

@@ -93,7 +93,7 @@
   position: absolute;
   right: 0;
   bottom: -160px;
-  top: -120px;
+  top: -160px;
   margin: 445px 30px 310px 1162px;
   font-size: 0;
   line-height: 0;
@@ -102,7 +102,7 @@
 
 }
 
-.realization_slider_indicator {
+.no-js .realization_slider_indicator {
 
 
   display: block;
