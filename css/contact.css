@@ -75,12 +75,12 @@
   content: "";
 
   position: absolute;
-  top: 0;
-  left: -331px;
+  top: -10px;
+  left: -339px;
   right: 0;
 
-  width: 88px;
-  height: 88px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto;
 
   background-image: url(../img/contact_sprite.png);
@@ -90,37 +90,37 @@
 
 .contact_link-address::before {
 
-  background-position: -15px -127px;
+  background-position: 0 -86px;
 
 }
 
 .contact_link-address:hover::before {
 
-  background-position: -16px -27px;
+  background-position: 0 -10px;
 
 }
 
 .contact_link-phone::before {
 
-  background-position: -585px -129px;
+  background-position: -411px -86px;
 
 }
 
 .contact_link-phone:hover::before {
 
-  background-position: -586px -28px;
+  background-position: -411px -10px;
 
 }
 
 .contact_link-email::before {
 
-  background-position: -1104px -137px;
+  background-position: -793px -86px;
 
 }
 
 .contact_link-email:hover::before {
 
-  background-position: -1105px -37px;
+  background-position: -793px -10px;
 
 }
 
@@ -130,7 +130,7 @@
   color: #2a2a2a;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-align: left;
