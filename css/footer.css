@@ -114,7 +114,34 @@
   text-decoration: underline;
 }
 
-.footer_go_top {
+#go-top {
+  position: fixed;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  bottom: 73px;
+  right: 20px;
+  cursor:pointer;
+  display:none;
+  width: 75px;
+  height: 30px;
+  background: #c0c0c0;
+  border-radius: 5px;
+}
+
+#go-top span {
+
+  font-size: 20px;
+
+}
+
+#go-top:hover {
+  background: #3a3a3a;
+}
+
+/*.footer_go_top {
 
   width: 480px;
   margin: 20px 0 0 0;
@@ -133,7 +160,7 @@
 
   font-size: 20px;
 
-}
+} */
 
 /* /SOCIAL */
 
