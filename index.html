@@ -5,20 +5,12 @@
   <title>POSH | Homepage</title>
   
 <!-- Fonts -->
-
   <link rel="stylesheet" href="css/fontello.css">
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/offers.css">
-  <link rel="stylesheet" href="css/services.css">
-  <link rel="stylesheet" href="css/realization.css">
-  <link rel="stylesheet" href="css/channel.css">
-  <link rel="stylesheet" href="css/latestblog.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body class="no-js">
@@ -139,39 +131,38 @@
     
     <!-- Services -->
     <section class="services">
-     <div class="container">
-      <h2 class="services_title">Our services</h2>
-      <div class="services_description">Vastly improved treatments and increased social acceptance has lead to cosmetic</div><br>
-      <ul class="services_list container">
-        <li class="services_item">
-          <a class="services_link services_link-about" href="#about">
-            <h3 class="services_view_title">About</h3>
-          </a>
-        </li>
-        <li class="services_item">
-          <a class="services_link services_link-wedding" href="#wedding">
-            <h3 class="services_view_title">Wedding</h3>
-          </a>
-        </li>
-        <li class="services_item">
-          <a class="services_link services_link-party" href="#party">
-            <h3 class="services_view_title">Party</h3>
-          </a>
-        </li>
-        <li class="services_item">
-          <a class="services_link services_link-bea_box" href="#bea_box">
-            <h3 class="services_view_title">Beauty Box</h3>
-          </a>
-        </li>
-        <li class="services_item">
-          <a class="services_link services_link-course" href="#course">
-            <h3 class="services_view_title">Course</h3>
-          </a>
-        </li>
-      </ul>
-       <div class="services-content">
-         <ul>
-           <li id="about">
+     <div class="variants container" data-switcher>
+        <h2 class="services_title">Our services</h2>
+        <div class="services_description">Vastly improved treatments and increased social acceptance has lead to cosmetic</div>
+        <ul class="services_list switcher">
+          <li data-switcher-show="0" class="services_link-about">
+            <a class="services_item" href="#about">
+              <h3 class="services_view_title">about</h3>
+            </a>
+          </li>
+          <li data-switcher-show="1" class="services_link-wedding" data-switcher-selected>
+            <a class="services_item" href="#wedding">
+              <h3 class="services_view_title">wedding</h3>
+            </a>
+          </li>
+          <li data-switcher-show="2" class="services_link-party">
+            <a class="services_item" href="#party">
+              <h3 class="services_view_title">party</h3>
+            </a>
+          </li>
+          <li data-switcher-show="3" class="services_link-bea_box">
+            <a class="services_item" href="#bea_box">
+              <h3 class="services_view_title">beauty box</h3>
+            </a>
+          </li>
+          <li data-switcher-show="4" class="services_link-course">
+            <a class="services_item" href="#course">
+              <h3 class="services_view_title">course</h3>
+            </a>
+          </li>
+        </ul>
+        <div class="services-content">
+           <div data-switcher-name="0">
              <div class="services_view_description_hover">
                <div class="shadow"><img class="services_view" src="img/services_img_frame-about.jpg" alt="About us image"></div>
                <div class="services_view_description">
@@ -183,8 +174,8 @@
                  </div>
                </div>
              </div>
-           </li>
-           <li id="wedding">
+           </div>
+           <div data-switcher-name="1">
              <div class="services_view_description_hover">
                <div class="shadow"><img class="services_view" src="img/services_img_frame-wedding.jpg" alt="Wedding servicing image"></div>
                <div class="services_view_description">
@@ -196,8 +187,8 @@
                  </div>
                </div>
              </div>
-           </li>
-           <li id="party">
+           </div>
+           <div data-switcher-name="2">
              <div class="services_view_description_hover">
                <div class="shadow"><img class="services_view" src="img/services_img_frame-party.jpg" alt="Party servicing image"></div>
                <div class="services_view_description">
@@ -209,8 +200,8 @@
                  </div>
                </div>
              </div>
-           </li>
-           <li id="bea_box">
+           </div>
+           <div data-switcher-name="3">
              <div class="services_view_description_hover">
                <div class="shadow"><img class="services_view" src="img/services_img_frame-bea_box.jpg" alt="Beauty box Cosmetics image"></div>
                <div class="services_view_description">
@@ -222,8 +213,8 @@
                  </div>
                </div>
              </div>
-           </li>
-           <li id="course">
+           </div>
+           <div data-switcher-name="4">
              <div class="services_view_description_hover">
                <div class="shadow"><img class="services_view" src="img/services_img_frame-course.jpg" alt="Our course image"></div>
                <div class="services_view_description">
@@ -235,9 +226,8 @@
                  </div>
                </div>
              </div>
-           </li>
-         </ul>
-       </div>
+           </div>
+        </div>
      </div>
     </section>
     <!-- /Services -->
@@ -430,7 +420,9 @@
     </div>
   </footer>
 <!-- /Page Footer -->
+
 <a href="#" id="go-top" title="Вверх">Go to top <span>&#8593;</span></a>
+
 <!--  JAVA SCRIPTS  -->
 <script src="js/no-js.js"></script>
 <script src="js/slider.js"></script>
@@ -439,6 +431,7 @@
 <script src="js/scroll.js"></script>
 <script src="js/jquery-2.2.1.min.js"></script>
 <script src="js/go_top.js"></script>
+<script src="js/scroll_services.js"></script>
 
 </body>
 </html>
