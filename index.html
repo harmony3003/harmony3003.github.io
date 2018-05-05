@@ -49,7 +49,7 @@
               <li class="navigation_item"><a href="#" class="navigation_link">Channel</a></li>
               <li class="navigation_item"><a href="#" class="navigation_link">Blog</a></li>
               <li class="navigation_item"><a href="#" class="navigation_link">Team</a></li>
-              <li class="navigation_item"><a href="#" class="navigation_link">Contact</a></li>
+              <li class="navigation_item"><a href="#" class="navigation_link callback">Contact</a></li>
             </ul>
         </nav>
       </div>
@@ -128,7 +128,7 @@
       </div>
     </section>
     <!-- /Slider -->
-    
+
     <!-- Services -->
     <section class="services">
      <div class="variants container" data-switcher>
@@ -376,7 +376,7 @@
               <p class="contact_title_description">+84 90 658 2725</p>
             </a>
           </li>
-          <li class="contact_item">
+          <li class="contact_item callback">
             <a class="contact_link contact_link-email" href="#">
               <h3 class="contact_title_view">email contact</h3>
               <p class="contact_title_description">junoteamvn@gmail.com</p>
@@ -401,7 +401,7 @@
               <li class="navigation_item"><a href="#" class="navigation_link">Channel</a></li>
               <li class="navigation_item"><a href="#" class="navigation_link">Blog</a></li>
               <li class="navigation_item"><a href="#" class="navigation_link">Team</a></li>
-              <li class="navigation_item"><a href="#" class="navigation_link">Contact</a></li>
+              <li class="navigation_item"><a href="#" class="navigation_link callback">Contact</a></li>
             </ul>
           </nav>
         <div class="brand">
@@ -421,6 +421,20 @@
   </footer>
 <!-- /Page Footer -->
 
+<!-- Contact Form -->
+<div id="popup">
+  <form id="contact_form" role="form" method="post" action="./php/order.php">
+    <h3>Напишите нам</h3>
+    <input type="text" name="name"  placeholder="Как к вам обращаться?">
+    <input type="text" name="tel"  class="required" placeholder="Контакный телефон (обязательно)">
+
+    <input type="hidden" name="send" value="1">
+    <textarea name="message" placeholder="Текст сообщения(НЕ обязательно)" rows="5"></textarea>
+    <a href="#" class="btn button form_submit">отправить</a>
+  </form>
+</div>
+<!-- /Contact Form -->
+
 <a href="#" id="go-top" title="Вверх">Go to top <span>&#8593;</span></a>
 
 <!--  JAVA SCRIPTS  -->
@@ -432,6 +446,7 @@
 <script src="js/jquery-2.2.1.min.js"></script>
 <script src="js/go_top.js"></script>
 <script src="js/scroll_services.js"></script>
+<script src="js/contact_form.js"></script>
 
 </body>
 </html>
